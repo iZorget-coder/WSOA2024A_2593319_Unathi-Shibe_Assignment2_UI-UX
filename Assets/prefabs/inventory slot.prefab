@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7957868508738736504}
   m_Layer: 5
   m_Name: inventory slot
-  m_TagString: chest inventory slot
+  m_TagString: backpack inventory slot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,4 +113,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0cb55eac93af394cb4a887811e193fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stackCount: {fileID: 0}
+  dominantTag: 
+  firstWordOfFirstChildName: 

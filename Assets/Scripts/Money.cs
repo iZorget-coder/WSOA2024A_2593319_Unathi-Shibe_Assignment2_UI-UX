@@ -24,4 +24,8 @@ public class Money : MonoBehaviour
     {
         amount -= cost;
     }
+    public void Selling(int value)
+    {
+        amount += value;
+    }
 }

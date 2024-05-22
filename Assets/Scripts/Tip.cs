@@ -6,17 +6,21 @@ public class Tip : MonoBehaviour
 {
     public Vector3 offsetValue;
     // Start is called before the first frame update
-    public string message;
+    public string[] message;
     public GameObject[] slots;
+ 
+    public string messageText;
    
     void Start()
     {
+      
 
         
     }
     private void OnMouseEnter()
     {
-            Tooltip.Instance.ShowTip(message);
+      
+            Tooltip.Instance.ShowTip(messageText);
         Tooltip.Instance.offset = offsetValue;
     }
     private void OnMouseExit()
